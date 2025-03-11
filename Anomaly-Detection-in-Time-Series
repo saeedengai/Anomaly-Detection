@@ -593,13 +593,13 @@ def main():
     data = load_data_from_csv("D:/College/George Brown/industry project/data.csv")
 
     
-    # Perform EDA (optional)
+    # Perform EDA
     perform_eda(data)
     
     # Handle missing data
     data = handle_missing_data(data, method='interpolate')  # Choose method
     
-    # Visualize signals (optional)
+    # Visualize signals
     signal_columns = ['aimp', 'amud', 'arnd', 'asin1', 'asin2', 'adbr', 'adfl', 'bed1',
                       'bed2', 'bfo1', 'bfo2', 'bso1', 'bso2', 'bso3', 'ced1', 'cfo1', 'cso1']
     visualize_signals(data, signal_columns)
