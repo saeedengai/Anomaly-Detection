@@ -17,14 +17,4 @@ The primary goal of this project is to develop an anomaly detection system and p
 
 ---
 
-## Repository Structure
-
-├─ README.md
-├─ scripts/
-│ ├─ ransyncoder.py # RanSynCoder model + helpers
-│ ├─ thresholds.py # Nominal-holdout threshold calibration
-│ └─ anomaly detection over CATS.ipynb # Training/eval notebook kept under scripts
-├─ report/
-│ └─ metrics.json # Summary metrics (no private data)
-
 
