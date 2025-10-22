@@ -20,19 +20,11 @@ The primary goal of this project is to develop an anomaly detection system and p
 ## Repository Structure
 
 .
-├─ README.md
-├─ notebooks/
-│  ├─ 00_main_project.ipynb         # renamed from "Main project.ipynb"
-│  ├─ 02_train_ransyncoder.ipynb    # model training + threshold calibration
-│  └─ 03_eval_and_infer.ipynb       # PR-AUC/F1, confusion matrix, inference
+├─ README.md      
 ├─ scripts/
-│  ├─ ransyncoder.py                # model (RanSynCoder) + helpers
-│  └─ thresholds.py                 # nominal-holdout threshold calibration
-├─ eval/
-│  ├─ metrics.py                    # predict/accumulate + pointwise eval
-│  └─ plot.py                       # correlation heatmap (and room for PR/CM)
+│  ├─ ransyncoder.py
+│  └─ thresholds.py
+│  └─ anomaly detection over CATS.ipynb
 ├─ report/
-│  └─ metrics.json                  # run metrics + link to full results (Notion)
-└─ legacy/
-   └─ Anomaly-Detection-in-Time-Series/   # temporarily park old folder here
+│  └─ metrics.json
 
